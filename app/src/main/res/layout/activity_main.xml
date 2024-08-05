@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadi10"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/ukazkartu"
+        android:layout_width="253dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/tykarty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/koulerad"
+        android:layout_width="227dp"
+        android:layout_height="282dp"
+        android:background="@drawable/koule"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ukazkartu"
+        app:layout_constraintVertical_bias="0.283"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnhodnot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zpětná vazba"
+        android:textSize="10dp"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/koulerad" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
